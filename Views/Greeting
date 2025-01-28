@@ -1,0 +1,18 @@
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router";
+
+export function MyGreeting() {
+}
+
+<>
+<header>
+    <nav>
+      <Link to="/">Home | </Link>
+      <Link>About | </Link>
+      <Link>Contact | </Link>
+      <Link>Gallery | </Link>
+      <Link to="/greeting">Greeting | </Link>
+      <Link to="/video">videos | </Link>
+    </nav>
+    </header>
+    </>
