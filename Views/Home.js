@@ -6,7 +6,6 @@ import { MyGreeting } from "./Greeting"
 <>
 <header>
         <nav>
-          
           <Link to="/">Home | </Link>
           <Link>About | </Link>
           <Link>Contact | </Link>
