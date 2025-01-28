@@ -2,6 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
 
 export function MyGreeting() {
+let greeting = "God is good!!";
+
+function changeGreeting() {
+    setGreeting = "What a beautiful day"
+    setTimeout(changeGreeting, 3000)
+}
 }
 
 <>

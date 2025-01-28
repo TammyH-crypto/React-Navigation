@@ -1,6 +1,7 @@
 import  React from "react"
 import { Link } from "react-router"
 import "./home.scss"
+import { MyGreeting } from "./Greeting"
 
 <>
 <header>
@@ -13,4 +14,7 @@ import "./home.scss"
           <Link to="/videos">videos</Link>
         </nav>
       </header>
+      <main>
+        <MyGreeting />
+      </main>
 </>
