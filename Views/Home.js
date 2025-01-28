@@ -1,12 +1,14 @@
 import  React from "react"
 import { Link } from "react-router"
-import "./home.scss"
+import "./Home.scss"
 import { MyGreeting } from "./Greeting"
 
+export function Home() {
+
+return (
 <>
 <header>
         <nav>
-          
           <Link to="/">Home | </Link>
           <Link>About | </Link>
           <Link>Contact | </Link>
@@ -16,5 +18,7 @@ import { MyGreeting } from "./Greeting"
       </header>
       <main>
         <MyGreeting />
-      </main>
+      </main> 
 </>
+)
+ }
