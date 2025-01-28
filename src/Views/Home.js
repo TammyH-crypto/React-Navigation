@@ -1,7 +1,7 @@
 import  React from "react"
 import { Link } from "react-router"
 import "./Home.scss"
-import { MyGreeting } from "./Greeting"
+import { MyGreeting } from "../src/Views/Greeting"
 
 export function Home() {
 

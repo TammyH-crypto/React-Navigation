@@ -1,8 +1,8 @@
 import { createRoot } from "react-dom/client";
 import React from "react";
-import { MyGreeting } from "./Greeting";
+import { MyGreeting } from "../src/Views/Greeting";
 import { Home } from "./Home";
-import { Videos } from "./Videos";
+import { Videos } from "../../Views/Videos";
 import { BrowserRouter, Route, Routes } from "react-router"
 import "./index.scss"
 

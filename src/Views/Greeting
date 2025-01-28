@@ -17,7 +17,7 @@ function changeGreeting() {
       <Link>Contact | </Link>
       <Link>Gallery | </Link>
       <Link to="/greeting">Greeting | </Link>
-      <Link to="/video">videos | </Link>
+      <Link to="/videos">videos | </Link>
     </nav>
     </header>
     </>
