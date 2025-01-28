@@ -18,6 +18,13 @@ return (
       </header>
       <main>
         <MyGreeting />
+        <h1 id="homeTitle">I love God</h1>
+        <button onClick={handleClick}>Click</button>
+        <output id="outputTag"></output>
+        <form onSubmit={handleSubmit}>
+          <input type="text"></input>
+          <input type="submit"></input>
+        </form>
       </main> 
 </>
 )
