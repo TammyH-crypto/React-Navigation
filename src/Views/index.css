@@ -1,0 +1,10 @@
+.center {
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-self: center;
+}
+
+.depth {
+  border-radius: 10px;
+  box-shadow: 10px 10px lightgreen;
+}
