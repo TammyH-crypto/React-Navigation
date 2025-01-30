@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import React from "react";
 import { MyGreeting } from "../src/Views/Greeting";
 import { Home } from "./src/Views/Home";
-import { Videos } from "../../Views/Videos";
+import { Videos } from "../Views/Videos";
 import { BrowserRouter, Route, Routes } from "react-router"
 import "./index.scss"
 

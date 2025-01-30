@@ -3,6 +3,7 @@ import { Link } from "react-router"
 import "./Home.scss"
 import { MyGreeting } from "../src/Views/Greeting"
 
+const message = "God is good";
 export function Home() {
 
 return (
@@ -27,5 +28,5 @@ return (
         </form>
       </main> 
 </>
-)
+);
  }
