@@ -1,19 +1,20 @@
 import { createRoot } from "react-dom/client";
 import React from "react";
-import { MyGreeting } from "../src/Views/Greeting";
-import { Home } from "./src/Views/Home";
-import { Videos } from "../Views/Videos";
-import { BrowserRouter, Route, Routes } from "react-router"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import "./index.scss"
 
 const root = createRoot(window.bodyTag);
 root.render(
-    <BrowserRouter>
+    <>
+    <p>Amazing</p>
+    {/* <BrowserRouter> */}
     <Routes>
-        <Route path="/" element= { <Home />} />
-        <Route path="/home" element= { <Home />}/>
-        <Route path="/videos" element= { <Videos />}/>
-        <Route path="/greeting" element= { <MyGreeting />}/>
+         {/* <Route path="/" element= { <Home/>} />  */}
+         <Route path="/" element= { <h1>Good day</h1>} />
+        {/* <Route path="/home" element= { <Home />}/> */}
+        {/* <Route path="/videos" element= { <Videos />}/> */}
+        {/* <Route path="/greeting" element= { <MyGreeting />}/> */}
     </Routes>
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
+    </>
 )

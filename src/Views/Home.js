@@ -1,10 +1,10 @@
 import  React from "react"
-import { Link } from "react-router"
+import { Link } from "react-router-dom"
 import "./Home.scss"
 import { MyGreeting } from "../src/Views/Greeting"
 
 const message = "God is good";
-export function Home() {
+export default function Home() {
 
 return (
 <>
