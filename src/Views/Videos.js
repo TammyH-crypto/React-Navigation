@@ -1,6 +1,10 @@
+import React from "react"
+import { Link } from "react-router-dom";
+import YouTube from "./YouTube";
+
 export function Videos() {
   return (
-    <>
+    <div>
       <header>
         <nav>
           <Link to="/">Home | </Link>
@@ -17,6 +21,6 @@ export function Videos() {
         >
         </YouTube>
       </main>
-    </>
+    </div>
   );
 }

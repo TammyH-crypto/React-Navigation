@@ -1,7 +1,7 @@
 import  React from "react"
 import { Link } from "react-router-dom"
-import "./Home.scss"
-import { MyGreeting } from "../src/Views/Greeting"
+import { MyGreeting } from "./Greeting";
+
 
 const message = "God is good";
 export default function Home() {
@@ -20,9 +20,9 @@ return (
       <main>
         <MyGreeting />
         <h1 id="homeTitle">I love God</h1>
-        <button onClick={handleClick}>Click</button>
+        <button onClick={()=>{console.log("Hello")}}>Click</button>
         <output id="outputTag"></output>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={()=>{console.log("Hello")}}>
           <input type="text"></input>
           <input type="submit"></input>
         </form>

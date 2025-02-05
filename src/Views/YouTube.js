@@ -1,6 +1,6 @@
 import React from "react";
 
-export function YouTube(props) {
+export default function YouTube(props) {
   const src = props.src;
   const label = props.label;
   const captions = props.children;

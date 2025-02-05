@@ -1,13 +1,13 @@
 import { createRoot } from "react-dom/client";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import "./index.scss"
+
 
 const root = createRoot(window.bodyTag);
 root.render(
     <>
     <p>Amazing</p>
-    {/* <BrowserRouter> */}
+    <BrowserRouter>
     <Routes>
          {/* <Route path="/" element= { <Home/>} />  */}
          <Route path="/" element= { <h1>Good day</h1>} />
